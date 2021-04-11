@@ -1,1 +1,14 @@
 Fill in the passphrases here.
+question 1: greenEggsAndHam --
+question2passcode="iHateCplusplus"
+question 3: HTMLRocks
+q4:Passcode: JavaScriptRules
+Question 5 Passcode:SvelteBeatsReact
+Question 6 Passcode: ThisIsJS
+Question 7 Passcode: YouFoundMe
+Question 8 passcode: coolcoolcool
+Question 9 passcode: 2020sucked
+Q10:listenToTheBlackKeys
+question 11 passcode: a11yComesFirst
+question12Passcode="iLoveWebDev
+Q13:404
