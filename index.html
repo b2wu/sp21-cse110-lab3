@@ -1,11 +1,15 @@
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial=scale=1.0">
 		<title>Lab2</title>
+		<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css" />
 	</head>
 	<body>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <header>
 		<div>Lab 2</div>
 			<nav>
@@ -18,9 +22,66 @@
 		<nav>
 		</nav>
 
-
+		<style>
+			#p1 {color:rgb(255,0,0);}
+			#p2 {color: #00ff00}
+			#p3 {color: blue}
+			#p6{display: none}
+			#p7{display:block}
+			#p8{box-sizing:border-box;
+			width:40px;}
+			#p9{box-sizing:border-box;
+			max-width: 50%;}
+			#p10{position:static;left: 150px;top:200px;}
+			#p11{position:fixed;left:100px;top:150px;}
+			#p12{display:flexbox;
+				border:1px solid red;
+				-moz-box-flex:1.0;
+				box-flex:1.0;
+			}
+			#p13{display:grid;
+				border:1px solid black;
+				grid-column: 100px 100px;
+				grid-row:100px 100px;
+			}
+			#p14{font-family: 'Roboto', sans-serif;}
+			div{
+				width: 70px;background-color: crimson;
+				text-align: justify;
+			}
+			#p4 {background-color: brown;width:2em;}
+			ol{
+				width: 300px;
+    border: 25px solid green;
+    padding: top;
+    margin: auto;
+			}
+			a:hover{color:darkgreen;}/* hoover */
+			a:active{color:darkmagenta;}
+			b{
+				border: 25px solid rgb(143, 23, 223);
+     padding-top:2cm;
+    margin-top: 2cm;
+	
+			}
+			em{
+				border-radius: 25px solid rgb(143, 23, 223);
+     padding-top:2cm;
+    margin: right;
+	display: none;
+			}
+			body{
+				color:blue;
+				text-align:left;
+				text-decoration: darkgray;
+			}
+		</style>
+	
 	</header>
+	
+		  
 	<main>
+	
 		
 		<img src="https://ucsdnews.ucsd.edu/news_uploads/Resized_Geisel_Library_08.31.jpg" 
 		alt="UCSD" 
@@ -32,6 +93,7 @@
 		<h2>CSE110</h2>
 		<h3>BanglunWu</h3>
 		<ol>
+			
 			<li><input type="checkbox"/>Lab1</li>
 			<li><input type="checkbox"/>Lab2</li>
 			<li><input type="checkbox"/>Lab3</li>
@@ -48,7 +110,20 @@
 		<br>
 		<audio src="https://www.youtube.com/watch?v=kJQP7kiw5Fk" controls="controls">Luis Fonsi - Despacito ft. Daddy Yankee</audio>
 		<video src="https://www.youtube.com/watch?v=kJQP7kiw5Fk" controls="controls">Luis Fonsi - Despacito ft. Daddy Yankee</video>
-	</main>s
+	</main>
+	<p id="p1">red</p>
+	<p id="p2">green</p>
+	<p id="p3">blue</p>
+	<p id="p4">unit</p>
+	<p id="p6">display</p>
+	<p id="p7">display2</p>
+	<p id="p8">box sizing</p>
+	<p id="p9">box sizing2</p>
+	<p id="p10">position</p>
+	<p id="p11">position2</p>
+	<p id="p12">flexbox</p>
+	<p id="p13">grid</p>
+	<p id="p14">fonts</p>
 	<footer>
 		<h6 id="subscribe">Subscribe</h6>
 		<form onsubmit="alert('Subscribed')">
