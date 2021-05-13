@@ -7,12 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     name: codacy-coverage-reporter
     steps:
-      - uses: actions/checkout@master
-      - name: Run codacy-coverage-reporter
-        uses: codacy/codacy-coverage-reporter-action@v1
-        with:
-          project-token: 2f6e47e11c0c4937a9dc038a6b829320
-          # or
-          # api-token: ${{ secrets.CODACY_API_TOKEN }}
+      - name: coverage report
+        run: gem install slather
+             slather coverage -x --output-directory ./screenshots --scheme lab3 lab3.xcodeproj
+          
       - name: upload coverage report
         run: export CODACY_PROJECT_TOKEN=2f6e47e11c0c4937a9dc038a6b829320
