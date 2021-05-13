@@ -14,4 +14,4 @@ jobs:
           project-token: 2f6e47e11c0c4937a9dc038a6b829320
           # or
           # api-token: ${{ secrets.CODACY_API_TOKEN }}
-
+          export CODACY_PROJECT_TOKEN: 2f6e47e11c0c4937a9dc038a6b829320
