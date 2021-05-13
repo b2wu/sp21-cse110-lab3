@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: coverage report
         run: gem install slather
-             slather coverage -x --output-directory ./screenshots --scheme lab3 lab3.xcodeproj
+             slather coverage --output-directory ./screenshots --scheme lab3 lab3.xcodeproj
           
       - name: upload coverage report
         run: export CODACY_PROJECT_TOKEN=2f6e47e11c0c4937a9dc038a6b829320
